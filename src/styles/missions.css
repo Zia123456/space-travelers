@@ -1,0 +1,73 @@
+th {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 10px 5px;
+}
+
+.border,
+.border th,
+.border td {
+  border: 1px solid hsl(0, 0%, 91%);
+  border-collapse: collapse;
+}
+
+.table-row-body:nth-child(odd) {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.table-row-body td {
+  padding: 10px 5px;
+  font-size: 1.1rem;
+}
+
+.mission-name {
+  font-weight: 600;
+}
+
+.mission-badge,
+.mission-buttons {
+  width: 11%;
+}
+
+.badge-menber,
+.badge-not-member {
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  width: 135px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.badge-not-member {
+  background-color: hsl(0, 0%, 45%);
+}
+
+.badge-menber {
+  background-color: hsl(194, 50%, 50%);
+}
+
+.join-button,
+.leave-button {
+  background-color: transparent;
+  font-size: 1.1rem;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.join-button {
+  border: 1px solid hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 25%);
+}
+
+.leave-button {
+  border: 1px solid rgb(233, 27, 65);
+  color: rgb(233, 27, 65);
+}

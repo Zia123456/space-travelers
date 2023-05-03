@@ -1,0 +1,40 @@
+.nav-bar {
+  padding: 1.5rem;
+  border-bottom: 2px solid hsl(0, 0%, 91%);
+  display: flex;
+}
+
+.nav-logo-link {
+  display: flex;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.nav-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.nav-logo-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 0%);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 1rem;
+}
+
+li a {
+  font-size: 1.2rem;
+  color: hsl(225, 100%, 59%);
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 18px;
+  background-color: hsl(0, 0%, 0%);
+}
